@@ -10,8 +10,6 @@ async def assess_facade(request: AssessmentRequest):
     correct_answer = request.correct_answer
     given_answer = request.given_answer
 
-    print(correct_answer.answer_type)
-
     correctness_percentage = 0
     comment = ''
 
