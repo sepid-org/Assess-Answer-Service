@@ -3,7 +3,7 @@ from typing import Optional
 
 
 class Question(BaseModel):
-    type: str
+    question_type: str
 
 
 class Answer(BaseModel):
