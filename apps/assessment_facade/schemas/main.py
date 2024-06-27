@@ -1,5 +1,4 @@
 from pydantic import BaseModel
-from typing import Optional
 
 
 class Question(BaseModel):
@@ -8,7 +7,7 @@ class Question(BaseModel):
 
 class Answer(BaseModel):
     answer_type: str
-    text: str
+    string: str
 
 
 class AssessmentRequest(BaseModel):
